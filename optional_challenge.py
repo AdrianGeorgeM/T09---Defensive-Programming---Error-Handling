@@ -1,13 +1,12 @@
-# logic.py - Demonstrating a logical error
 
-# Correct calculation of the area of a rectangle
-length = 10
-width = 5
-correct_area = length * width
+
+# Correct calculation of the square of a number
+number = 8
+correct_square = number * number
 
 # Intentional logical error
-# Suppose we mistakenly add length and width, instead of multiplying
-incorrect_area = length + width
+# Suppose we mistakenly add the number to itself, instead of squaring 
+incorrect_square = number + number
 
-print(f"The correct area is: {correct_area}")
-print(f"The incorrect area is: {incorrect_area}")  # Logical Error: Incorrect calculation of area
+print(f"The correct square is: {correct_square}")
+print(f"The incorrect square is: {incorrect_square}")  # Logical Error: Incorrect calculation of square
